@@ -1,12 +1,14 @@
 #include <stdio.h>
 int fact(int a){
+    int res = 0;
     if (a==0 || a==1)
     {
         return 1;
     }
     else
     {
-        return (a*fact(a-1));
+        res = (a*fact(a-1));
+        return res;
     }
     
 }

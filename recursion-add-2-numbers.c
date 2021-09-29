@@ -1,9 +1,10 @@
 #include <stdio.h>
 int y;
-int add(int m,int n){
-    if(n==0)
-    return m;
-    y=add(m,n-1)+1;
+int add(int m, int n)
+{
+    if (n == 0)
+        return m;
+    y = add(m, n - 1) + 1;
     return y;
 }
 int main()

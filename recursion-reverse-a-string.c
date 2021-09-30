@@ -11,5 +11,4 @@ int main()
     char s[10], res;
     fgets(s, 10, stdin);
     reverse_s(s, 0);
-    // printf("%s", res);
 }
